@@ -1,4 +1,168 @@
-@font-face {
+p{
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.3em;
+  color: #1e0a0b;
+  text-align: center;
+
+
+}
+
+/* LIENS CUSTOMISE*/
+
+a:link, a:visited {
+  background-color: #10172f;
+  color: white;
+  padding: 1px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 2em;
+
+}
+
+a:hover, a:active {
+  background-color: #620103;
+
+}
+/* CORPS */
+body{
+  max-width: 90%;
+  margin: auto;
+  font-size: 15px;
+
+}
+html {
+  background: url(/img/7.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+img{
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+
+}
+
+
+/* CITATIONS */
+blockquote{
+  width: 600px;
+  margin: 0 auto;
+  font-size: 160%;
+  font-style: oblique;
+  background-color: rgba(169,169,169, 0.1);
+  border-left: 3px solid #620103;
+  padding-left: 30px;
+  margin-top:80px;
+  margin-bottom: 80px;
+
+
+}
+/* Citation 1 et 2*/
+#quote1{
+  width: 600px;
+  margin: auto;
+  font-size: 160%;
+  font-style: oblique;
+  background-color: rgba(169,169,169, 0.1);
+  border-left: 3px solid #620103;
+  padding: 50px;
+  padding-left: 30px;
+  margin-top:80px;
+  margin-bottom: 80px;
+  display: block;
+
+
+
+}
+
+#quote2{
+
+  font-size: 160%;
+  font-style: oblique;
+  margin: 35%;
+  background-color: rgba(169,169,169, 0.1);
+  border-left: 3px solid #620103;
+  padding: 50px;
+  padding-left: 30px;
+  margin-top:80px;
+  margin-bottom: 80px;
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+
+}
+/* TABLE */
+
+table{
+  margin-left: auto;
+  margin-right: auto;
   font-size: 20px;
+
+}
+/* CORPS */
+header, footer, h2, h3{
+
+  text-align: center;
+  color: #620103;
+}
+
+
+
+/* ID's */
+#bienetmal{
+  text-transform: uppercase;
+}
+
+/* Liste avec image doigt haut bas chat */
+#li1::after{
+content: url(https://github.com/becodeorg/BXLCentral/blob/master/Projects/3-progressive-enhancement/bien.png?raw=true);
+
+}
+
+#li2::after{
+content: url(https://github.com/becodeorg/BXLCentral/blob/master/Projects/3-progressive-enhancement/mal.png?raw=true);
+
+}
+
+#li3::after{
+content: url(https://github.com/becodeorg/BXLCentral/blob/master/Projects/3-progressive-enhancement/chat.png?raw=true);
+
+}
+
+/* Classes */
+.fermier{
+  border-left: 3px solid white;
+
+}
+
+.Villageois{
+  border-left: 3px solid darkgray;
+
+}
+
+.bienvert{
+  color: green;
+}
+
+.malrouge{
+  color: red;
+}
+
+.tablegrise{
+  background-color: gray;
+}
+
+.tableblanche{
+  background-color: white;
+}
+
+.paragraphe1er{
+  font-weight: bold;
 }
