@@ -1,8 +1,14 @@
+.paragraphe1er{
+  font-weight: bold;
+}
+
 p{
   font-family: 'Open Sans', sans-serif;
   line-height: 1.3em;
   color: #1e0a0b;
   text-align: center;
+
+
 
 
 }
@@ -28,7 +34,7 @@ a:hover, a:active {
 body{
   max-width: 90%;
   margin: auto;
-  font-size: 15px;
+  font-size: 18px;
 
 }
 html {
@@ -41,13 +47,31 @@ html {
 }
 
 img{
-  width: 50%;
-  height: 50%;
+  max-width: 100%;
+  max-height: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto
+  
 
 }
+
+
+/*
+.tm-img1{
+    float: left;
+    clear: both;
+}
+
+.tm-img2{
+    float: left;
+    clear: both;
+}
+
+.tm-img3{
+float: left;
+}
+*/
 
 
 /* CITATIONS */
@@ -61,7 +85,9 @@ blockquote{
   padding-left: 30px;
   margin-top:80px;
   margin-bottom: 80px;
-
+/*
+  float: left;
+*/
 
 }
 /* Citation 1 et 2*/
@@ -77,10 +103,18 @@ blockquote{
   margin-top:80px;
   margin-bottom: 80px;
   display: block;
-
-
-
 }
+/*
+  float: right;
+*/
+
+
+
+/*
+ .clearfix{
+     overflow: auto;
+ }
+ */
 
 #quote2{
 
@@ -96,6 +130,7 @@ blockquote{
   display: block;
   margin: 0 auto;
   width: 600px;
+  text-align: center;
 
 }
 /* TABLE */
@@ -107,12 +142,27 @@ table{
 
 }
 /* CORPS */
-header, footer, h2, h3{
+
+.container{
+    position: relative;
+}
+
+header, footer, h1, h2, h3{
 
   text-align: center;
   color: #620103;
 }
 
+
+/*
+.tm-footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 35px;
+  width: 100%;
+}
+*/
 
 
 /* ID's */
@@ -122,17 +172,35 @@ header, footer, h2, h3{
 
 /* Liste avec image doigt haut bas chat */
 #li1::after{
-content: url(https://github.com/becodeorg/BXLCentral/blob/master/Projects/3-progressive-enhancement/bien.png?raw=true);
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-image: url("https://github.com/becodeorg/BXLCentral/blob/master/Projects/3-progressive-enhancement/bien.png?raw=true");
+  background-size: contain;
+  background-repeat: no-repeat;
 
 }
 
 #li2::after{
-content: url(https://github.com/becodeorg/BXLCentral/blob/master/Projects/3-progressive-enhancement/mal.png?raw=true);
+   content: "";
+   width: 20px;
+   height: 20px;
+   display: inline-block;
+   background-image: url("https://github.com/becodeorg/BXLCentral/blob/master/Projects/3-progressive-enhancement/mal.png?raw=true");
+   background-size: contain;
+   background-repeat: no-repeat;
 
 }
 
 #li3::after{
-content: url(https://github.com/becodeorg/BXLCentral/blob/master/Projects/3-progressive-enhancement/chat.png?raw=true);
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-image: url("https://github.com/becodeorg/BXLCentral/blob/master/Projects/3-progressive-enhancement/chat.png?raw=true");
+  background-size: contain;
+  background-repeat: no-repeat;
 
 }
 
@@ -161,8 +229,4 @@ content: url(https://github.com/becodeorg/BXLCentral/blob/master/Projects/3-prog
 
 .tableblanche{
   background-color: white;
-}
-
-.paragraphe1er{
-  font-weight: bold;
 }
