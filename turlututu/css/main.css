@@ -1,0 +1,105 @@
+body{
+    background: #eeeeee;
+}
+
+
+.tm-container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+
+}
+
+.tm-header{
+    background: black;
+
+
+}
+
+footer{
+    background: black;
+    overflow: hidden;
+}
+
+.tm-nav,ul , li{
+    display: inline-block;
+}
+.tm-nav,ul , li, a{
+    display: inline-block;
+    padding: 0px 10px;
+    color: white;
+
+}
+
+.tm-nav,ul , li, a:hover{
+    color: blue;
+}
+
+.bigpart{
+    padding: 30px 0 50px 0;
+    background-color: #1E93CC;
+    background-size: 15%;
+    color: white;
+    background-image: url(/img/JSGeek.png);
+    background-repeat: no-repeat;
+    background-position: 10% 40%;
+    position: relative;
+    text-align: center;
+}
+
+
+
+.btn{
+    background-color: ##ba7200;
+    border-color: white;
+    border-radius: 9px;
+    border-width: 2px;
+    font-size: 150%;
+}
+.btn2{
+    background-color: ##ba7200;
+    border-radius: 9px;
+    border: none;
+    font-size: 100%;
+    text-align: center;
+    margin: 50px;
+
+}
+
+
+
+.about-section{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #1e93cc;
+    color: #e0e0e0;
+    overflow: hidden;
+}
+
+
+
+.gauche{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.droite{
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+
+.ligne-blanche{
+    clear: both;
+    text-align: center;
+    margin: 50px;
+
+}
+
+.partenaires{
+    background: rgba(201, 201, 201, 0.86);
+    text-align: center;
+
+}
